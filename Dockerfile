@@ -14,7 +14,7 @@ RUN apt-get update && \
     \
     apt-cache policy docker-engine && \
     apt-get update && \
-    apt-get install -y docker-engine=1.13.0-0~ubuntu-xenial && \
+    apt-get install -y docker-engine docker-compose && \
     \
     apt-get clean all && \
     \
